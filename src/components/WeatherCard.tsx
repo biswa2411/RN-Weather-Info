@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
     padding: 20,
     borderRadius: 10,
     alignItems: 'center',
-    marginBottom: 20,
+    marginVertical: 10,
   },
   city: {
     fontSize: 24,
