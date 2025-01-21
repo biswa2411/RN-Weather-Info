@@ -1,10 +1,10 @@
 import { SafeAreaView, StyleSheet } from "react-native"
-import Home from "./screens/Home"
+import HomeScreen from "./screens/Home"
 
 const App = ()=>{
 return(
   <SafeAreaView style={styles.container}>
-    <Home/>
+    <HomeScreen/>
   </SafeAreaView>
 )
 

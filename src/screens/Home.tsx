@@ -1,4 +1,3 @@
-// src/screens/HomeScreen.js
 import React, { useState, useEffect } from 'react';
 import {
   
@@ -97,11 +96,11 @@ const HomeScreen = () => {
       )}
 
       <Text style={styles.historyTitle}>Search History</Text>
-      {history.map((item:any, index:any) => (
+     {history.map((item:any, index:any) => (
         <TouchableOpacity key={index} onPress={() => fetchWeather(item)}>
           <Text style={styles.historyItem}>{item}</Text>
         </TouchableOpacity>
-      ))}
+      ))} 
     </ScrollView>
   );
 };
